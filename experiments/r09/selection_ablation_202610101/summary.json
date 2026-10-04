@@ -1,0 +1,160 @@
+{
+  "scope": "PUBLIC_SYNTHETIC_ONE_FRESH_SEED_SHARED_EXPERT_SELECTION_ABLATION_NOT_OFFICIAL_SCORE",
+  "official_toolkit_commit": "0d2332d8ae19a8ce171031142bdc97134910e7ec",
+  "frozen_r09_publication_commit": "c2ad3e462546a3d84fdd7e70f9270567bf4b791f",
+  "status": "PASS",
+  "seed": 202610101,
+  "phase": 1,
+  "wall_seconds": 398.5287032089982,
+  "synthetic_selector_increment_supported": false,
+  "selector_better_instruments": 1,
+  "mean_r09_minus_always_half": -0.00006417578318329564,
+  "cells": [
+    {
+      "instrument": "unhcr",
+      "log_score": -0.5732655219943329,
+      "n_cells": 132273,
+      "n_hidden": 621,
+      "n_visible": 8279,
+      "seed": 202610101,
+      "skill": 0.545659186663511,
+      "variant": "r05"
+    },
+    {
+      "instrument": "unhcr",
+      "log_score": -0.5677077126715617,
+      "n_cells": 132273,
+      "n_hidden": 621,
+      "n_visible": 8279,
+      "seed": 202610101,
+      "skill": 0.5500640209177885,
+      "variant": "r09"
+    },
+    {
+      "instrument": "unhcr",
+      "log_score": -0.5669468248970109,
+      "n_cells": 132273,
+      "n_hidden": 621,
+      "n_visible": 8279,
+      "seed": 202610101,
+      "skill": 0.5506670614933749,
+      "variant": "always_half"
+    },
+    {
+      "instrument": "unicef",
+      "log_score": -0.6456810127345252,
+      "n_cells": 17856,
+      "n_hidden": 1488,
+      "n_visible": 14885,
+      "seed": 202610101,
+      "skill": 0.586642941517681,
+      "variant": "r05"
+    },
+    {
+      "instrument": "unicef",
+      "log_score": -0.6404672333640365,
+      "n_cells": 17856,
+      "n_hidden": 1488,
+      "n_visible": 14885,
+      "seed": 202610101,
+      "skill": 0.5899807390704288,
+      "variant": "r09"
+    },
+    {
+      "instrument": "unicef",
+      "log_score": -0.6396781123327175,
+      "n_cells": 17856,
+      "n_hidden": 1488,
+      "n_visible": 14885,
+      "seed": 202610101,
+      "skill": 0.5904859246680525,
+      "variant": "always_half"
+    },
+    {
+      "instrument": "world_bank",
+      "log_score": -0.9695473312203274,
+      "n_cells": 39520,
+      "n_hidden": 520,
+      "n_visible": 5195,
+      "seed": 202610101,
+      "skill": 0.5196364472621506,
+      "variant": "r05"
+    },
+    {
+      "instrument": "world_bank",
+      "log_score": -0.961914809909747,
+      "n_cells": 39520,
+      "n_hidden": 520,
+      "n_visible": 5195,
+      "seed": 202610101,
+      "skill": 0.5234179903957725,
+      "variant": "r09"
+    },
+    {
+      "instrument": "world_bank",
+      "log_score": -0.9637630212189132,
+      "n_cells": 39520,
+      "n_hidden": 520,
+      "n_visible": 5195,
+      "seed": 202610101,
+      "skill": 0.5225022915721124,
+      "variant": "always_half"
+    }
+  ],
+  "pairs": [
+    {
+      "always_half_minus_r05": 0.0050078748298638676,
+      "instrument": "unhcr",
+      "r09_minus_always_half": -0.0006030405755863555,
+      "r09_minus_r05": 0.004404834254277512
+    },
+    {
+      "always_half_minus_r05": 0.0038429831503714595,
+      "instrument": "unicef",
+      "r09_minus_always_half": -0.0005051855976236919,
+      "r09_minus_r05": 0.0033377975527477677
+    },
+    {
+      "always_half_minus_r05": 0.0028658443099617292,
+      "instrument": "world_bank",
+      "r09_minus_always_half": 0.0009156988236601604,
+      "r09_minus_r05": 0.0037815431336218897
+    }
+  ],
+  "instruments": [
+    {
+      "instrument": "unhcr",
+      "r09_wall_seconds": 305.80957483399834,
+      "selected_target_count": 126,
+      "predict_target_count": 213,
+      "extra_full_latent_for_ablation": false
+    },
+    {
+      "instrument": "unicef",
+      "r09_wall_seconds": 16.179199416998017,
+      "selected_target_count": 6,
+      "predict_target_count": 12,
+      "extra_full_latent_for_ablation": false
+    },
+    {
+      "instrument": "world_bank",
+      "r09_wall_seconds": 47.614606417002506,
+      "selected_target_count": 54,
+      "predict_target_count": 76,
+      "extra_full_latent_for_ablation": false
+    }
+  ],
+  "frozen_inputs_unchanged": true,
+  "study_receipt_sha256": "b16dd7cceae393b9fa4f849dd31d25cf04f632a3082e705de8de544740c26526",
+  "independent_readback_sha256": "08d28eb519246160e000b70874d642da257d7db7a1841efe36f6ce808e996397",
+  "initial_terminal_storage_failure_preserved": true,
+  "transport_revision": "Lossless float64 compressed NPZ only; same source, seed, data and resource caps",
+  "transport_new_tests": 2,
+  "observer_new_tests": 5,
+  "score_cells_are_independent_model_runs": false,
+  "candidate_changed": false,
+  "official_r09_score": null,
+  "report_or_test_filed": false,
+  "award": null,
+  "limitations": "One synthetic generator/one fresh seed; no real microdata/significance/H100/official score. Mean selector difference is tiny; neither general superiority nor a causal population mechanism follows."
+}
