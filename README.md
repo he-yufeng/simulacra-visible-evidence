@@ -24,6 +24,27 @@ a learned soft parent/child gate adjustment, not a hard routing rule.
 Its protocol and stopping rule are fixed before the synthetic comparison.
 See [R06_PROTOCOL.md](R06_PROTOCOL.md).
 
+## R06 outcome: stopped, not selected
+
+The [fixed Linux comparison](https://github.com/he-yufeng/simulacra-visible-evidence/actions/runs/37173691214)
+ended **STOP_FUTILITY** after the first three paired instruments (six scoring
+calls). Raw synthetic skill gains were +0.001284 (UNHCR), +0.000921 (UNICEF)
+and +0.000462 (World Bank). None reached the predeclared +0.005 useful-gain
+threshold. With only three pairs remaining, the required four useful pairs
+became unreachable. The remaining seed and final-stage run were not executed,
+and r06 was not officially submitted. CI success means the stopping rule ran,
+not that the candidate passed promotion. The official displayed best remains
+r05 at 0.58.
+
+The first attempt failed because the frozen r05 baseline exceeded a proxy
+180-second prediction cap. That failure was retained; before any candidate
+score the proxy allocation was explicitly revised to 300 seconds per
+instrument (three caps sum to the official Development 900-second budget).
+Source, seeds and performance thresholds were unchanged, and the first
+generated dataset had to match its original hash. See the complete aggregate
+[method receipt](experiments/r06/method_receipt.json). No real microdata was
+used or released.
+
 ## Reproduce the fixed synthetic comparison
 
 Use Python 3.12 and the versions in `benchmark-requirements.txt`. Check out the

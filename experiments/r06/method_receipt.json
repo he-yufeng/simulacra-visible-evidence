@@ -1,0 +1,233 @@
+{
+  "archives": [
+    {
+      "bytes": 14423,
+      "sha256": "e0532e65eb5e6d35ce7463d61d101549391ef16ecefabbb9226d46aba16cbddd",
+      "status": "PASS",
+      "variant": "r05"
+    },
+    {
+      "bytes": 16477,
+      "sha256": "82554b4f9e21bde6d85d1978141d372e8e1cafdf53280b624ab39443fbf25efe",
+      "status": "PASS",
+      "variant": "r06"
+    }
+  ],
+  "cells": [
+    {
+      "instrument": "unhcr",
+      "log_score": -0.5996661687488225,
+      "n_cells": 132273,
+      "n_held_out": 621,
+      "n_respondents": 8900,
+      "reported_skill": 0.52,
+      "score_log_sha256": "308b16559cd9bf3fef32eb9a5ec7a6635d2df2a4d4b83989287b9b4ef433ae74",
+      "seed": 202610061,
+      "skill": 0.5247353898209672,
+      "status": "PASS",
+      "variant": "r05"
+    },
+    {
+      "instrument": "unhcr",
+      "log_score": -0.5980458911504049,
+      "n_cells": 132273,
+      "n_held_out": 621,
+      "n_respondents": 8900,
+      "reported_skill": 0.53,
+      "score_log_sha256": "84b59c7e5e8b76d6bcf61ae9701a8330a59037e0f0056f1763f972e694e757d0",
+      "seed": 202610061,
+      "skill": 0.5260195386379674,
+      "status": "PASS",
+      "variant": "r06"
+    },
+    {
+      "instrument": "unicef",
+      "log_score": -0.6662529309798905,
+      "n_cells": 17856,
+      "n_held_out": 1488,
+      "n_respondents": 16373,
+      "reported_skill": 0.57,
+      "score_log_sha256": "7f3d921d66542d1d3f2673c078e326f749d0774862931f6da25cbb06f4c81b8f",
+      "seed": 202610061,
+      "skill": 0.5734730519816242,
+      "status": "PASS",
+      "variant": "r05"
+    },
+    {
+      "instrument": "unicef",
+      "log_score": -0.6648141310196443,
+      "n_cells": 17856,
+      "n_held_out": 1488,
+      "n_respondents": 16373,
+      "reported_skill": 0.57,
+      "score_log_sha256": "69e959102062a69a2253acd5047a5985b26fd77e7f9e389889588b74a1e73798",
+      "seed": 202610061,
+      "skill": 0.5743941540546016,
+      "status": "PASS",
+      "variant": "r06"
+    },
+    {
+      "instrument": "world_bank",
+      "log_score": -1.1117832759307733,
+      "n_cells": 39520,
+      "n_held_out": 520,
+      "n_respondents": 5715,
+      "reported_skill": 0.45,
+      "score_log_sha256": "2d295fe3ff8b9d735c2977faee70a83f286dab96645cb50461bdede69b5cdd7f",
+      "seed": 202610061,
+      "skill": 0.4491654537087607,
+      "status": "PASS",
+      "variant": "r05"
+    },
+    {
+      "instrument": "world_bank",
+      "log_score": -1.1108510916243581,
+      "n_cells": 39520,
+      "n_held_out": 520,
+      "n_respondents": 5715,
+      "reported_skill": 0.45,
+      "score_log_sha256": "391d174535eb5517ffb5fb139cb22fdfa4020b56eebf13ebef16eff2ef1dc7da",
+      "seed": 202610061,
+      "skill": 0.4496273056997021,
+      "status": "PASS",
+      "variant": "r06"
+    }
+  ],
+  "dataset_hashes": {
+    "data_202610061_unhcr/respondents.parquet": "cc331049335fa996c4cb24424cba71595a61e4690635e9fddc949abea2dc9bb5",
+    "data_202610061_unhcr/schema.json": "a44721a8170ca102170a58490470628c81c085210d68a60e3cb774411019a384",
+    "data_202610061_unicef/respondents.parquet": "81cd94ea286626e97e2248d89dac73e5d9b82fd889f5520adbee1e4b7193221c",
+    "data_202610061_unicef/schema.json": "ea222d68a992d782d9397d1aa9de77f95daa8d891e0cc99ac2ddfc2ba7a06e03",
+    "data_202610061_world_bank/respondents.parquet": "34d5d9553080a527f28bb9386e64f2144447e7811c3cd65b62b3e91fba4f524e",
+    "data_202610061_world_bank/schema.json": "8f8eaeed8ad92d695e937dca7ad25b3b491c357e3250ee830a98f5084aba0a84"
+  },
+  "feasibility_gate": false,
+  "first_failed_run": 37172888118,
+  "frozen_inputs_unchanged": true,
+  "inputs": {
+    "R06_PROTOCOL.md": "4899bb43eb1706d2dcf457cfe106372912e2e53d609786db5bd89766a1fcfa44",
+    "_reference/LICENSE": "f38d690effe75689378dd6cb4376ac4204e41cac540990fa4a5800d15d4f5663",
+    "_reference/config.yml": "bcc6aedf979a22512e2fc23bac5d161eda0dd2735e38c9c04b7c76bed5ad97c6",
+    "_reference/data/unhcr.json": "a44721a8170ca102170a58490470628c81c085210d68a60e3cb774411019a384",
+    "_reference/data/unicef.json": "29870d75423bbfbebd103834c33ecdd121f7b93d14e3eba882913e08c9b9b3ab",
+    "_reference/data/world_bank.json": "6a5e736886d6d5092ff9c72a1841114dc287bf368350d7325f36bd8384e6d23d",
+    "_reference/make_sandbox.py": "7121c6e0fb6e5e7e1d0810126969c3273f37f0c3f1a9adf675772b6763ace98b",
+    "_reference/score.py": "d1853f2af6630d3cace2a57c94be51e7b317ff697b531b21553aea21c11f8090",
+    "_reference/tools/check_submission_zip.py": "e1f7316642f440ece2aedd6e149f5f0a47c108fc836c602815fdd026aeee3d8f",
+    "benchmark-requirements.txt": "4b71086e055fc277a17d2770635857353295e8a49953cd33c53f1d34e2381e30",
+    "participant_r05/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "participant_r05/main.py": "86d0eb535267f338e05e31aae8585198f953202941e1a7cc03fddccfcffc1184",
+    "participant_r05/requirements.txt": "08e4fe287267c35daffe687dbca1cfb3c3d701183b609df0d7f2b3cc9bfb9f14",
+    "participant_r06/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "participant_r06/main.py": "79ac3ad116075f069cc2d8ead7724649445600649f212a19dc9af3466c292a01",
+    "participant_r06/requirements.txt": "08e4fe287267c35daffe687dbca1cfb3c3d701183b609df0d7f2b3cc9bfb9f14",
+    "tests/test_participant_r06.py": "432c21e9bef675bb2b22b78e9f46091a8955937ed9c7c4eb8a57fe683ca22bb8",
+    "tools/run_r06.py": "063aff5e33eaf66a3e40f5bc42ea7e94c3d1f8b7e5b797fe82840929f0e0c311"
+  },
+  "material_regression_pairs": 0,
+  "official_upload_performed": false,
+  "pairs": [
+    {
+      "delta_skill": 0.0012841488170001192,
+      "instrument": "unhcr",
+      "seed": 202610061
+    },
+    {
+      "delta_skill": 0.0009211020729773534,
+      "instrument": "unicef",
+      "seed": 202610061
+    },
+    {
+      "delta_skill": 0.0004618519909413976,
+      "instrument": "world_bank",
+      "seed": 202610061
+    }
+  ],
+  "predict_cap_seconds": 300,
+  "private_microdata_used": false,
+  "processes": [
+    {
+      "exit_code": 0,
+      "label": "new_linux_microtests",
+      "log_sha256": "4545df09f8c14b2f90fbcd1274a1f3032c7dccffc4828345a2c98329e562d0f1",
+      "wall_seconds": 0.5324240130000248
+    },
+    {
+      "exit_code": 0,
+      "label": "archive_r05",
+      "log_sha256": "0182b68e5a771d249d3afd2cc71ec5e22d4134a312e2c48c862882ebf54c863d",
+      "wall_seconds": 0.4784983010000019
+    },
+    {
+      "exit_code": 0,
+      "label": "archive_r06",
+      "log_sha256": "67d7c7c710e5f9762423f221feda211202d310046f48f8ec4ec147cb511975d5",
+      "wall_seconds": 0.49818316799996865
+    },
+    {
+      "exit_code": 0,
+      "label": "generate_202610061_unhcr",
+      "log_sha256": "52f9381339f6a7d23a8beb221b647b6bc22fdba1681645db0dd9b5fa11194da7",
+      "wall_seconds": 1.6079426759999933
+    },
+    {
+      "exit_code": 0,
+      "label": "score_202610061_unhcr_r05",
+      "log_sha256": "7d948c2b5369264c5f61f65cdc9b9111a36af8dd88576d0d03daa5ae67daeff5",
+      "wall_seconds": 204.62252176900006
+    },
+    {
+      "exit_code": 0,
+      "label": "score_202610061_unhcr_r06",
+      "log_sha256": "e5043e6bbad61294168c7cac219698293976eb36dd90c600b82a353a2f51cfa7",
+      "wall_seconds": 205.13182686999994
+    },
+    {
+      "exit_code": 0,
+      "label": "generate_202610061_unicef",
+      "log_sha256": "4f3a52b1a0ae092621055c8826f9644bd8c23ed4aefdd6585d94787ae6b6c4ba",
+      "wall_seconds": 0.6907623189999867
+    },
+    {
+      "exit_code": 0,
+      "label": "score_202610061_unicef_r05",
+      "log_sha256": "1126e7d0985ee7db882a28c704c071a407ec060bf49a438f21774c986f6a3edd",
+      "wall_seconds": 7.934302696000032
+    },
+    {
+      "exit_code": 0,
+      "label": "score_202610061_unicef_r06",
+      "log_sha256": "e66d7fe71da9f2ac7b19bc0d7e3a80b8121c0f7bda7a292f8f01b3bbf79ffdd7",
+      "wall_seconds": 8.478802587000018
+    },
+    {
+      "exit_code": 0,
+      "label": "generate_202610061_world_bank",
+      "log_sha256": "db2b9fcd10d89072b1f13093afda7b42b38798a9aff5406bed0a53cf67953f2e",
+      "wall_seconds": 0.867866696999954
+    },
+    {
+      "exit_code": 0,
+      "label": "score_202610061_world_bank_r05",
+      "log_sha256": "b1631ffa5219a9f0eb95e1ad4c8a1370939fffe9cb02fcc2d9317d9fa207a155",
+      "wall_seconds": 27.49002608300009
+    },
+    {
+      "exit_code": 0,
+      "label": "score_202610061_world_bank_r06",
+      "log_sha256": "67247fc55607cf7652cee7be9dda0d3b32ace1ab214fde3ca3a2820a99c85694",
+      "wall_seconds": 27.14639954000006
+    }
+  ],
+  "scope": "PUBLIC_SYNTHETIC_METHOD_NOT_OFFICIAL_SCORE",
+  "seeds": [
+    202610061,
+    202610062
+  ],
+  "source_commit": "0d2332d8ae19a8ce171031142bdc97134910e7ec",
+  "status": "STOP_FUTILITY",
+  "three_instrument_predict_cap_sum": 900,
+  "unstarted_pairs": 3,
+  "useful_pairs": 0,
+  "wall_seconds": 485.50700051000007
+}
