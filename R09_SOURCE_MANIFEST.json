@@ -1,0 +1,26 @@
+{
+  "schema": "r09-public-frozen-source/v1",
+  "scope": "OWNED_MIT_SOURCE_AND_PUBLIC_SYNTHETIC_AGGREGATE_ONLY",
+  "base_public_commit": "8de3752a07d603158a0b0fc0d4f28dff8d0efd18",
+  "participant_source_sha256": "d18adf1485adff1b22a936a6345d43629539360a0a807e95eaf12af0df4ef9e4",
+  "archive_sha256": "a5295ed4511cc6a950778cd12b1710cdbf7273b0d93326e4a0c8c2b9e07fc4e8",
+  "inputs": {
+    "participant_r09/main.py": "d18adf1485adff1b22a936a6345d43629539360a0a807e95eaf12af0df4ef9e4",
+    "participant_r09/evidence_core.py": "86d0eb535267f338e05e31aae8585198f953202941e1a7cc03fddccfcffc1184",
+    "participant_r09/latent_core.py": "04680d52dacf336d2f7c1d90925ff754ab9176425a1389d727f3c61c5f2350c7",
+    "participant_r09/requirements.txt": "08e4fe287267c35daffe687dbca1cfb3c3d701183b609df0d7f2b3cc9bfb9f14",
+    "participant_r09/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "tests/test_participant_r09.py": "d2bc6b41b3cc703e5a26d321300fa7a93d42af1f7286e31bd5251dcc2784140a",
+    "R09_PROTOCOL.md": "133bc2f349b2de9135c35a9002d5e90e469c3a20da66d46085d69082200b101a",
+    "R09_RESOURCE_PROTOCOL_R01.md": "b329550b830f64619c6795b424c46fde33831bf9d7b4d1e49df018c26f0f4348",
+    "R09_PHASE2_CONTRACT_PROTOCOL.md": "82cc8f7d0085bf7ee2a151247dcad3689bd77b579969cf220acbae0aefbe7a2f",
+    "experiments/r09/local_method_summary.json": "09e585add08ce7575640e2b17986849552836e0f30db3c0f8ef002fe2772162a",
+    "tools/native_r09.py": "b42fa2e036c68d511d34268ddcc1c2051cd411111b84d816348f6dfcac486b38",
+    ".github/workflows/native-r09.yml": "1ff2b6a6861ad3e609b4a3b2b068c8cead1c3011201cda928fe90b925ccb7c10",
+    ".gitignore": "9f10f17a2a960d50343cc7911b0313b64d4667d9453866d6ef223b6614afbd43",
+    "README.md": "45c5280c0049f35ddf5479be1edb7c8341ce42988502876683fb750ae9ebe469",
+    "benchmark-requirements.txt": "4b71086e055fc277a17d2770635857353295e8a49953cd33c53f1d34e2381e30",
+    "LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b"
+  },
+  "excluded": "Real microdata,private score/task logs,mail,browser exports,CV,credentials,weights,local datasets and unrelated workspace files are not copied or staged."
+}

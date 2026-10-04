@@ -1,0 +1,61 @@
+{
+  "scope": "PUBLIC_SYNTHETIC_LOCAL_R09_METHOD_AGGREGATE_NOT_OFFICIAL_RESULT",
+  "source_sha256": "d18adf1485adff1b22a936a6345d43629539360a0a807e95eaf12af0df4ef9e4",
+  "method_receipt_sha256": "be6e64f5e7270f262088fa5f63460bb2eae439847da55e4433b92e1b365ac3ef",
+  "status": "PASS",
+  "feasibility_gate": true,
+  "comparable_cells": 12,
+  "new_score_executions": 11,
+  "cached_reference_cells": 1,
+  "pairs": [
+    {
+      "delta_skill": 0.007000592876196365,
+      "instrument": "unhcr",
+      "seed": 202610091
+    },
+    {
+      "delta_skill": 0.0059162933747066715,
+      "instrument": "unicef",
+      "seed": 202610091
+    },
+    {
+      "delta_skill": 0.005662457404473353,
+      "instrument": "world_bank",
+      "seed": 202610091
+    },
+    {
+      "delta_skill": 0.005739857968491302,
+      "instrument": "unhcr",
+      "seed": 202610092
+    },
+    {
+      "delta_skill": 0.002839283872947518,
+      "instrument": "unicef",
+      "seed": 202610092
+    },
+    {
+      "delta_skill": 0.0060408836785904585,
+      "instrument": "world_bank",
+      "seed": 202610092
+    }
+  ],
+  "useful_pairs": 5,
+  "material_regressions": 0,
+  "all_deltas_positive": true,
+  "candidate_parent_step_seconds_sum": 771.3235775000066,
+  "phase2_entry_contract": {
+    "instruments_passed": 3,
+    "vectors_checked": 442425,
+    "wall_seconds": 423.1021299999993,
+    "not_score_or_test_submission": true
+  },
+  "official_r09_score": null,
+  "official_r09_submission_performed": false,
+  "best_recorded_official": {
+    "submission_id": 959261,
+    "displayed_dev_score": 0.58,
+    "recorded_at": "2026-10-05 02:34 UTC+8",
+    "noised_rounded_not_exact_gain_or_award": true
+  },
+  "limitations": "Local Python3.12 arm64/two public synthetic seeds. One reference cell reused only after exact source/seed/phase/data/log verification. Not real microdata/significance/global optimum/Linux-H100. Native CI, if present, is separately reported."
+}

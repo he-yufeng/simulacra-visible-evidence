@@ -1,5 +1,47 @@
 # Visible Evidence for Survey Completion
 
+## R09: whole-block cross-fitted frozen expert mixture
+
+This branch contains the exact next Development candidate, not a new official
+score or prize. The original r05 submission959261 remained the recorded
+official best at displayed0.58 on5October02:34UTC+8. R09 had not been uploaded;
+the live daily quota was1/1. Its locally verified25,278-byte ZIP hashes to
+`a5295ed4511cc6a950778cd12b1710cdbf7273b0d93326e4a0c8c2b9e07fc4e8`.
+
+R09 combines the frozen evidence and standard latent-class predictors only
+when three-fold visible-row held-out log scores support a fixed half mixture.
+The entire PREDICT block is masked before either expert trains; query labels,
+identifiers and EXCLUDE fields do not enter model or selector training. If a
+target does not pass the fixed internal gain rule, its exact r05 vector is
+retained. See [R09_PROTOCOL.md](R09_PROTOCOL.md), the two frozen cores and the
+[owned isolation tests](tests/test_participant_r09.py).
+
+The local fixed comparison completed12comparable score cells:11new executions
+plus one earlier completed r05 reference reused only after exact source/seed/
+phase/data/log checks. All six paired raw gains were positive; five exceeded
+the predeclared0.005 threshold, with no material regression. These are only
+two public synthetic seeds, not real-microdata gains, significance or awards.
+The initial300-second local allocation timed out and was retained. An explicit
+[budget revision](R09_RESOURCE_PROTOCOL_R01.md) used600/120/120seconds plus60
+reserved overhead within the official900-second shared Development budget,
+without changing code, folds, weight, seeds or quality thresholds.
+See the bounded [local aggregate](experiments/r09/local_method_summary.json).
+
+The exact ZIP also passed three local final-stage entry contracts covering
+442,425legal vectors. That was not a Test score or submission. The independent
+Linux job checks the exact same ZIP and all three complete public stand-in
+schemas, using the immutable official toolkit and fresh native tests. It
+does not rerun the local twelve-cell quality study or use real records. Native
+CI state/results remain separate from the local evidence and from H100 or
+official ranking proof.
+
+To run the independent native contract, use Linux x86_64/Python3.12, install
+`benchmark-requirements.txt`, clone the fixed official commit into `_reference/`,
+then run `python -B tools/native_r09.py`. It generates only public synthetic
+stand-ins and refuses source/ZIP drift. The public standard35-minute runner
+has no paid larger machine, cache, artifact upload, external model API or GPU.
+The old stopped r06 workflow is not re-enabled or dispatched by this branch.
+
 Participant-authored, dependency-light categorical probability models for
 [SimulacraBench](https://www.codabench.org/competitions/17822/). Only supplied
 visible training answers and declared schema relationships are used. No
