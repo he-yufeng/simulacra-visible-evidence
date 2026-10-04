@@ -1,0 +1,20 @@
+{
+  "scope": "NEW_CATEGORICAL_BOOSTING_HOST_CONTROL_TESTS_NOT_QUESTIONNAIRE_QUALITY",
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-04T22:21:29Z",
+  "python": "3.12.12",
+  "machine": "arm64",
+  "catboost": "1.2.10",
+  "new_tests_run": 8,
+  "new_tests_passed": 8,
+  "unittest_wall_seconds": 0.133,
+  "candidate_source_sha256": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+  "test_source_sha256": "9037b199ab2ccf9a78d513c694b3f9c82b7953fa7976de9375acd350d0fe1b2c",
+  "actual_xor_backend_and_query_invariance_checks_passed": true,
+  "other_control_checks_use_owned_observable_fake_backend": true,
+  "complete_questionnaire_quality_verified": false,
+  "linux_h100_equivalence_verified": false,
+  "official_upload_performed": false,
+  "official_score": null,
+  "new_service_spend_cny": 0
+}

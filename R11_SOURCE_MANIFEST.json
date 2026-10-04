@@ -1,0 +1,20 @@
+{
+  "scope": "FROZEN_R11_OWNED_SOURCE_TEST_PROTOCOL_AND_DEPENDENCIES_NOT_METHOD_RESULT",
+  "official_toolkit_commit": "0d2332d8ae19a8ce171031142bdc97134910e7ec",
+  "inputs": {
+    "participant_r11/main.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r11/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r11/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "tests/test_participant_r11.py": "9037b199ab2ccf9a78d513c694b3f9c82b7953fa7976de9375acd350d0fe1b2c",
+    "tools/native_r11.py": "f5b2d8c9eb791bad17121a06eb5cba464e2d169fd71e660d2cc8891ec3a91463",
+    "R11_PROTOCOL.md": "8e94b46d2331fb246b46f204a6385398253379bfe5592cbaaaf94e04f9f4ca49",
+    "r11-benchmark-requirements.txt": "fe2533a493c5c9b2389f983a5a1417af2fdf4392467e9473d3e9d1b83bb22e3a",
+    ".github/workflows/method-r11.yml": "e1c298b36cb2889977281a517895a75a150819a8b9607da5905742a7b567dfa9",
+    "experiments/r11/completed_mac_controls.json": "8f124b30fb97f01448b510f9dc5ef68cb344c858973739fec1eaccf4db079741",
+    "experiments/r11/README.md": "1514afda87e3a9fd4ac595dde9425348b7b41fa17780e77168629f564e18ed82",
+    "participant_r05/main.py": "86d0eb535267f338e05e31aae8585198f953202941e1a7cc03fddccfcffc1184",
+    "participant_r05/requirements.txt": "08e4fe287267c35daffe687dbca1cfb3c3d701183b609df0d7f2b3cc9bfb9f14",
+    "participant_r05/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b"
+  }
+}
