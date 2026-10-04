@@ -1,0 +1,144 @@
+{
+  "archive_bytes": 25278,
+  "archive_sha256": "a5295ed4511cc6a950778cd12b1710cdbf7273b0d93326e4a0c8c2b9e07fc4e8",
+  "contracts": [
+    {
+      "full_predict_block_hidden": true,
+      "hidden": 1449,
+      "instrument": "unhcr",
+      "numpy": "2.5.3",
+      "official_socket_guard": true,
+      "pandas": "3.0.6",
+      "phase": 2,
+      "positive_finite_normalized": true,
+      "predict_seconds": 616.8939930500001,
+      "scoring_function_called": false,
+      "stage_inputs_unchanged": true,
+      "status": "PASS",
+      "target_items": 213,
+      "vectors_checked": 308637,
+      "visible": 8900
+    },
+    {
+      "full_predict_block_hidden": true,
+      "hidden": 3473,
+      "instrument": "unicef",
+      "numpy": "2.5.3",
+      "official_socket_guard": true,
+      "pandas": "3.0.6",
+      "phase": 2,
+      "positive_finite_normalized": true,
+      "predict_seconds": 32.41585110699998,
+      "scoring_function_called": false,
+      "stage_inputs_unchanged": true,
+      "status": "PASS",
+      "target_items": 12,
+      "vectors_checked": 41676,
+      "visible": 16373
+    },
+    {
+      "full_predict_block_hidden": true,
+      "hidden": 1212,
+      "instrument": "world_bank",
+      "numpy": "2.5.3",
+      "official_socket_guard": true,
+      "pandas": "3.0.6",
+      "phase": 2,
+      "positive_finite_normalized": true,
+      "predict_seconds": 96.0788037850001,
+      "scoring_function_called": false,
+      "stage_inputs_unchanged": true,
+      "status": "PASS",
+      "target_items": 76,
+      "vectors_checked": 92112,
+      "visible": 5715
+    }
+  ],
+  "finished_at_utc": "2026-10-04T19:31:51.602139+00:00",
+  "gpu_h100_equivalence": false,
+  "machine": "x86_64",
+  "new_linux_selector_tests": 8,
+  "new_service_spend_cny": 0,
+  "official_score": null,
+  "processes": [
+    {
+      "exit_code": 0,
+      "name": "new_linux_selector_tests",
+      "wall_seconds": 1.8718208650000037
+    },
+    {
+      "exit_code": 0,
+      "name": "new_native_zip_contract",
+      "wall_seconds": 0.38520153000000334
+    },
+    {
+      "exit_code": 0,
+      "name": "generate_public_unhcr",
+      "wall_seconds": 1.307957737999999
+    },
+    {
+      "exit_code": 0,
+      "name": "unhcr_phase2",
+      "wall_seconds": 626.139157244
+    },
+    {
+      "exit_code": 0,
+      "name": "generate_public_unicef",
+      "wall_seconds": 0.579594893000035
+    },
+    {
+      "exit_code": 0,
+      "name": "unicef_phase2",
+      "wall_seconds": 34.11804488200005
+    },
+    {
+      "exit_code": 0,
+      "name": "generate_public_world_bank",
+      "wall_seconds": 0.705681520999974
+    },
+    {
+      "exit_code": 0,
+      "name": "world_bank_phase2",
+      "wall_seconds": 99.08771898600003
+    }
+  ],
+  "python": "3.12.14",
+  "real_microdata_used": false,
+  "repository": "he-yufeng/simulacra-visible-evidence",
+  "run_id": "37227790019",
+  "scope": "INDEPENDENT_LINUX_ACTUAL_ZIP_PHASE2_CONTRACT_NOT_SCORING",
+  "scoring_function_called": false,
+  "source": {
+    "official_commit": "0d2332d8ae19a8ce171031142bdc97134910e7ec",
+    "official_files": {
+      "LICENSE": "f38d690effe75689378dd6cb4376ac4204e41cac540990fa4a5800d15d4f5663",
+      "config.yml": "bcc6aedf979a22512e2fc23bac5d161eda0dd2735e38c9c04b7c76bed5ad97c6",
+      "make_sandbox.py": "7121c6e0fb6e5e7e1d0810126969c3273f37f0c3f1a9adf675772b6763ace98b",
+      "score.py": "d1853f2af6630d3cace2a57c94be51e7b317ff697b531b21553aea21c11f8090",
+      "tools/check_submission_zip.py": "e1f7316642f440ece2aedd6e149f5f0a47c108fc836c602815fdd026aeee3d8f"
+    },
+    "participant_inputs": {
+      ".github/workflows/native-r09.yml": "1ff2b6a6861ad3e609b4a3b2b068c8cead1c3011201cda928fe90b925ccb7c10",
+      ".gitignore": "9f10f17a2a960d50343cc7911b0313b64d4667d9453866d6ef223b6614afbd43",
+      "LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+      "R09_PHASE2_CONTRACT_PROTOCOL.md": "82cc8f7d0085bf7ee2a151247dcad3689bd77b579969cf220acbae0aefbe7a2f",
+      "R09_PROTOCOL.md": "133bc2f349b2de9135c35a9002d5e90e469c3a20da66d46085d69082200b101a",
+      "R09_RESOURCE_PROTOCOL_R01.md": "b329550b830f64619c6795b424c46fde33831bf9d7b4d1e49df018c26f0f4348",
+      "README.md": "45c5280c0049f35ddf5479be1edb7c8341ce42988502876683fb750ae9ebe469",
+      "benchmark-requirements.txt": "4b71086e055fc277a17d2770635857353295e8a49953cd33c53f1d34e2381e30",
+      "experiments/r09/local_method_summary.json": "09e585add08ce7575640e2b17986849552836e0f30db3c0f8ef002fe2772162a",
+      "participant_r09/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+      "participant_r09/evidence_core.py": "86d0eb535267f338e05e31aae8585198f953202941e1a7cc03fddccfcffc1184",
+      "participant_r09/latent_core.py": "04680d52dacf336d2f7c1d90925ff754ab9176425a1389d727f3c61c5f2350c7",
+      "participant_r09/main.py": "d18adf1485adff1b22a936a6345d43629539360a0a807e95eaf12af0df4ef9e4",
+      "participant_r09/requirements.txt": "08e4fe287267c35daffe687dbca1cfb3c3d701183b609df0d7f2b3cc9bfb9f14",
+      "tests/test_participant_r09.py": "d2bc6b41b3cc703e5a26d321300fa7a93d42af1f7286e31bd5251dcc2784140a",
+      "tools/native_r09.py": "b42fa2e036c68d511d34268ddcc1c2051cd411111b84d816348f6dfcac486b38"
+    },
+    "source_manifest_sha256": "024c4bd9ae519cafd5e9c9ec780904043299b2df5a461171ad02316f57a9baaf"
+  },
+  "source_commit": "c2ad3e462546a3d84fdd7e70f9270567bf4b791f",
+  "status": "PASS",
+  "system": "Linux",
+  "wall_seconds": 764.20754774
+}
