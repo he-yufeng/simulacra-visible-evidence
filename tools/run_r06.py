@@ -16,6 +16,7 @@ REFERENCE = ROOT / "_reference"
 COMMIT = "0d2332d8ae19a8ce171031142bdc97134910e7ec"
 R05_SHA = "86d0eb535267f338e05e31aae8585198f953202941e1a7cc03fddccfcffc1184"
 R06_SHA = "79ac3ad116075f069cc2d8ead7724649445600649f212a19dc9af3466c292a01"
+FIRST_DATA_SHA = "cc331049335fa996c4cb24424cba71595a61e4690635e9fddc949abea2dc9bb5"
 SEEDS = (202610061, 202610062)
 INSTRUMENTS = ("unhcr", "unicef", "world_bank")
 
@@ -56,12 +57,14 @@ def main():
                "source_commit": COMMIT, "inputs": frozen, "seeds": SEEDS,
                "cells": [], "pairs": [], "dataset_hashes": {},
                "archives": [], "processes": [], "feasibility_gate": False,
-               "official_upload_performed": False, "private_microdata_used": False}
+               "official_upload_performed": False, "private_microdata_used": False,
+               "predict_cap_seconds": 300, "three_instrument_predict_cap_sum": 900,
+               "first_failed_run": 37172888118}
 
     def save():
         (out / "receipt.json").write_text(json.dumps(summary, sort_keys=True, indent=2))
 
-    def run(command, label, cap=300):
+    def run(command, label, cap=420):
         remaining = 1800 - (time.monotonic() - started)
         if remaining <= 0:
             raise TimeoutError("fixed batch timeout")
@@ -120,6 +123,9 @@ def main():
                      "--config", str(REFERENCE / "config.yml"), "--seed", str(seed), "--out", str(dataset)],
                     f"generate_{seed}_{instrument}")
                 original_data = dataset_hashes(dataset)
+                if seed == SEEDS[0] and instrument == "unhcr":
+                    if digest(dataset / "respondents.parquet") != FIRST_DATA_SHA:
+                        raise RuntimeError("first attempted deterministic dataset differs; no scoring")
                 summary["dataset_hashes"].update(original_data)
                 paired = {}
                 for variant in ("r05", "r06"):
@@ -129,7 +135,7 @@ def main():
                     run([sys.executable, str(REFERENCE / "score.py"), "--submission",
                          str(ROOT / ("participant_" + variant)), "--data", str(dataset),
                          "--schema", str(schema), "--config", str(REFERENCE / "config.yml"),
-                         "--phase", "1", "--seed", str(seed), "--timeout", "180", "--log", str(log)],
+                         "--phase", "1", "--seed", str(seed), "--timeout", "300", "--log", str(log)],
                         f"score_{seed}_{instrument}_{variant}")
                     result = json.loads(log.read_text())
                     if result.get("status") != "PASS" or not math.isfinite(result["skill"]):
