@@ -1,0 +1,80 @@
+{
+  "scope": "ACTUAL_COMPLETED_PUBLIC_SYNTHETIC_METHOD_GATE_NOT_OFFICIAL_SCORE",
+  "status": "PASS",
+  "feasibility_gate": true,
+  "source_commit": "ee8f27d9387966d1c2852d5028b9958b968ddae7",
+  "run_id": "37240429175",
+  "score_cells": 12,
+  "pairs": [
+    {
+      "delta_skill": 0.010104086943002466,
+      "instrument": "unhcr",
+      "seed": 202610121
+    },
+    {
+      "delta_skill": 0.013141765445671805,
+      "instrument": "unicef",
+      "seed": 202610121
+    },
+    {
+      "delta_skill": 0.010162438947832864,
+      "instrument": "world_bank",
+      "seed": 202610121
+    },
+    {
+      "delta_skill": 0.004330171534050908,
+      "instrument": "unhcr",
+      "seed": 202610122
+    },
+    {
+      "delta_skill": 0.010448995630277458,
+      "instrument": "unicef",
+      "seed": 202610122
+    },
+    {
+      "delta_skill": 0.005495521700648487,
+      "instrument": "world_bank",
+      "seed": 202610122
+    }
+  ],
+  "useful_pairs": 5,
+  "material_regression_pairs": 0,
+  "wall_seconds": 973.9035669629999,
+  "candidate_parent_seconds_by_seed": {
+    "202610121": 374.374887285,
+    "202610122": 366.9400340100001
+  },
+  "archives": [
+    {
+      "actual_extracted_payloads_verified": true,
+      "bytes": 14423,
+      "sha256": "e0532e65eb5e6d35ce7463d61d101549391ef16ecefabbb9226d46aba16cbddd",
+      "status": "PASS",
+      "variant": "r05"
+    },
+    {
+      "actual_extracted_payloads_verified": true,
+      "bytes": 6273,
+      "sha256": "a53dbe25f96a6ec5e14ab815c8a0bd7f4ff5a1f21174f5646595d47c94326927",
+      "status": "PASS",
+      "variant": "r11"
+    }
+  ],
+  "runtime": {
+    "machine": "x86_64",
+    "python": "3.12.14",
+    "system": "Linux",
+    "versions": {
+      "PyYAML": "6.0.3",
+      "catboost": "1.2.10",
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "pyarrow": "25.0.1",
+      "scipy": "1.18.1"
+    }
+  },
+  "original_receipt_sha256": "4d2111ae182fdce28cb3dc1be2235f883230c9a488912ececb3fe04ac73f55fd",
+  "independent_readback_sha256": "2691aeebaed1ab9af5bc32160fdf2e8cb94231f91cbf02d08b941b547b6ec17e",
+  "official_score": null,
+  "real_data_or_h100_equivalence": false
+}

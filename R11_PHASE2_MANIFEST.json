@@ -1,0 +1,14 @@
+{
+  "scope": "FROZEN_NEW_FINAL_STAGE_ACTUAL_ZIP_CONTRACT_NOT_SCORING",
+  "inputs": {
+    "tools/phase2_r11.py": "480ec2c270594fe91f2ce62c0f0d417b223ea4323199c3f3c1cb882fc230133e",
+    "R11_PHASE2_PROTOCOL.md": "54b854bc164fd41ca2b2e4a53cfa17c07a6a0c4146c345930ffb47c1472c6df4",
+    ".github/workflows/phase2-r11.yml": "9b5f15c4ed7edb535de2a697493ec2af1eeb5ab1e69ae8712c670e5af9c210f6",
+    "R11_SOURCE_MANIFEST.json": "9d3f42d99ecbac7b5e691fb3d6de4743c9f9e1b5820f8e3cd0ed2f87e85b2bb9",
+    "r11-benchmark-requirements.txt": "fe2533a493c5c9b2389f983a5a1417af2fdf4392467e9473d3e9d1b83bb22e3a",
+    "experiments/r11/completed_method_summary.json": "2f5b94ee1e0e5ca1821a9597f8d06f50f2b405ecfbadf2d2bcc50f23eb812d1b",
+    "participant_r11/main.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r11/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r11/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b"
+  }
+}
