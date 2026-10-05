@@ -1,0 +1,28 @@
+{
+  "schema": "r12-frozen-capacity-cohort/v1",
+  "reference": "r11",
+  "candidate": "r12",
+  "benchmark_seeds": [
+    202610131,
+    202610132
+  ],
+  "only_capacity_change": {
+    "iterations": [
+      96,
+      192
+    ]
+  },
+  "resource_policy": "PUBLIC standard ubuntu24;2 conditional sequential cohorts;no artifact/cache/paid runner",
+  "inputs": {
+    "participant_r11/main.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r11/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r11/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "participant_r12/main.py": "aa24868f9a048316a904447f26383db6beca65ccba584eac453817ba24e7f1a6",
+    "participant_r12/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r12/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "tools/native_r12_cohort.py": "afe4169ea6834ef2089844eeef79e2ad603267b2082f31a5aadf0cf982935ab1",
+    "R12_CAPACITY_PROTOCOL.md": "29de8de42e628a4868a8af49e86e38c13432fedff64442de70d3415a72655c89",
+    "r12-benchmark-requirements.txt": "fe2533a493c5c9b2389f983a5a1417af2fdf4392467e9473d3e9d1b83bb22e3a",
+    ".github/workflows/cohort-r12.yml": "1f7d0a73f8d19dd763fa4d3d9beb90513268dae88d8ae0b45c8d6f585c506566"
+  }
+}
