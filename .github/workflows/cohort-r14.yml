@@ -1,0 +1,48 @@
+name: Frozen r14 runtime-calibration cohort
+on:
+  push:
+    branches: [tuning/runtime-calibration-r14-20261005-c1, tuning/runtime-calibration-r14-20261005-c2]
+    paths:
+      - participant_r14/**
+      - tools/native_r14_cohort.py
+      - tests/test_participant_r14.py
+      - R14_CALIBRATION_RUNTIME_PROTOCOL.md
+      - R14_SOURCE_MANIFEST.json
+      - R14_COHORT1_SUMMARY.json
+      - r14-benchmark-requirements.txt
+      - .github/workflows/cohort-r14.yml
+permissions:
+  contents: read
+concurrency:
+  group: cohort-r14-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  cohort:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      R14_COHORT: ${{ endsWith(github.ref_name, '-c1') && '1' || '2' }}
+      PYTHONDONTWRITEBYTECODE: "1"
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      PIP_NO_CACHE_DIR: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --no-cache-dir -r r14-benchmark-requirements.txt
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: SituatedEvals/public
+          ref: 0d2332d8ae19a8ce171031142bdc97134910e7ec
+          path: _reference
+          persist-credentials: false
+      - name: One new exact-ZIP complete-synthetic runtime-calibration cohort
+        run: python -B tools/native_r14_cohort.py
