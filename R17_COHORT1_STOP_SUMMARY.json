@@ -1,0 +1,130 @@
+{
+  "scope": "NATIVE_FULL_FIRST_COHORT_STOP_FUTILITY_NOT_OFFICIAL_SCORE",
+  "source_commit": "35450696cb764c4ff4afff7fae026d08be423e52",
+  "status": "STOP_FUTILITY",
+  "cohort": 1,
+  "seed": 202610181,
+  "official_commit": "0d2332d8ae19a8ce171031142bdc97134910e7ec",
+  "new_linux_schema_order_controls_without_skips": 12,
+  "archives": [
+    {
+      "actual_extracted_payloads_verified": true,
+      "bytes": 6273,
+      "sha256": "a53dbe25f96a6ec5e14ab815c8a0bd7f4ff5a1f21174f5646595d47c94326927",
+      "variant": "r11"
+    },
+    {
+      "actual_extracted_payloads_verified": true,
+      "bytes": 8727,
+      "sha256": "37a2a0ff0a1f8da7119ed9f3150f743685417479e21838a52c50de0d267df76b",
+      "variant": "r17"
+    }
+  ],
+  "cells": [
+    {
+      "variant": "r11",
+      "instrument": "unhcr",
+      "skill": 0.5595121922610863,
+      "n_cells": 132273,
+      "n_held_out": 621,
+      "n_respondents": 8900
+    },
+    {
+      "variant": "r17",
+      "instrument": "unhcr",
+      "skill": 0.5595300225160231,
+      "n_cells": 132273,
+      "n_held_out": 621,
+      "n_respondents": 8900
+    },
+    {
+      "variant": "r11",
+      "instrument": "unicef",
+      "skill": 0.5859998363577308,
+      "n_cells": 17856,
+      "n_held_out": 1488,
+      "n_respondents": 16373
+    },
+    {
+      "variant": "r17",
+      "instrument": "unicef",
+      "skill": 0.5861774823571283,
+      "n_cells": 17856,
+      "n_held_out": 1488,
+      "n_respondents": 16373
+    },
+    {
+      "variant": "r11",
+      "instrument": "world_bank",
+      "skill": 0.4418988989152913,
+      "n_cells": 39520,
+      "n_held_out": 520,
+      "n_respondents": 5715
+    },
+    {
+      "variant": "r17",
+      "instrument": "world_bank",
+      "skill": 0.44138099313050405,
+      "n_cells": 39520,
+      "n_held_out": 520,
+      "n_respondents": 5715
+    }
+  ],
+  "pairs": [
+    {
+      "delta_skill": 0.00001783025493684587,
+      "instrument": "unhcr",
+      "seed": 202610181
+    },
+    {
+      "delta_skill": 0.00017764599939751324,
+      "instrument": "unicef",
+      "seed": 202610181
+    },
+    {
+      "delta_skill": -0.0005179057847872759,
+      "instrument": "world_bank",
+      "seed": 202610181
+    }
+  ],
+  "useful_pairs": 0,
+  "material_regression_pairs": 0,
+  "unstarted_pairs": 3,
+  "stop_reason": "MAX_REMAINING_WINS_BELOW_REQUIRED_FOUR",
+  "feasibility_gate": false,
+  "parent_seconds": {
+    "r11": 451.039173531,
+    "r17": 509.8930149230001
+  },
+  "wall_seconds": 965.472566201,
+  "finished_at_utc": "2026-10-05T23:00:23.781596+00:00",
+  "frozen_inputs_unchanged": true,
+  "native_run_id": 37384302035,
+  "native_job_id": 112013667934,
+  "native_run_conclusion": "success",
+  "model_source_sha256": "260a2725fb2e13873b9a1d9ea9983667bc85c4c3be091cf7ff60cb12115571f7",
+  "raw_public_log_bytes": 95160,
+  "raw_public_log_sha256": "19d7baeb7ec42e0b871c7da07dbec8da07daed573b63df1eadb6efc50e5d426a",
+  "native_receipt_sha256": "5a08954cf2c9a87bb0d596c78bfd630469a3098d6f6d604385d277071b909500",
+  "recovery_receipt_sha256": "80f6ad69cfb9d35f9f5fba8cc6efe7f022d5a9d676883e9dd4a2c1495a55ed1a",
+  "independent_readback_sha256": "c5170905b55d4f952bddcdaf8e515b16949303d05f79be219e2c1200194a28d5",
+  "independent_source_zip_schema_counts_byitem_arithmetic_verified": true,
+  "original_control_failure_preserved": true,
+  "only_canonical_fixture_indexing_corrected_before_quality_measurement": true,
+  "original_thresholds_seeds_models_features_parameters_and_resource_gates_unchanged": true,
+  "decision": "CLOSE_R17_ORDINAL_AUGMENTATION: zero useful pairs at delta>=0.005; only3pairs remain, maximum3useful cannotreachrequired4. No material regression at original-0.015 cutoff.",
+  "second_cohort_launched": false,
+  "phase2_launched": false,
+  "official_r17_uploaded": false,
+  "official_r17_score": null,
+  "award": null,
+  "best_official_development_retained": {
+    "submission_id": 960984,
+    "displayed_score": 0.62,
+    "last_browser_verified_utc": "2026-10-05T02:28:00Z"
+  },
+  "workflow_id": 375768893,
+  "workflow_state_verified": "disabled_manually",
+  "new_paid_service_or_commitment_cny": 0,
+  "limitations": "Full invented public synthetic inputs only. Native aggregates, source/ZIP reconstruction, schema counts and by-item arithmetic were reconciled; raw vectors/Parquet/score-file bytes stayed in the runner. No second scorer, raw real microdata, significance, causal mechanism or official leaderboard gain claim."
+}
