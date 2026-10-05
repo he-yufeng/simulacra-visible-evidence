@@ -135,6 +135,7 @@ class RuntimeRepairTests(unittest.TestCase):
     def test_batched_groups_are_canonical_and_unselected_objects_exact(self):
         frame, schema = self.fixture(n=0, queries=2)
         frame.loc[0, "given"] = np.nan
+        frame["q"] = frame["q"].astype(object)
         frame.loc[0, "q"] = "NA_GATED"
         vectors = [[.4, .6], [.6, .4], [.3, .7], [.1, .2, .7]]
         groups = agent._groups(frame, schema, vectors)

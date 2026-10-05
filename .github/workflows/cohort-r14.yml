@@ -1,7 +1,7 @@
 name: Frozen r14 runtime-calibration cohort
 on:
   push:
-    branches: [tuning/runtime-calibration-r14-20261005-c1, tuning/runtime-calibration-r14-20261005-c2]
+    branches: [tuning/runtime-calibration-r14-20261005-c1-r01, tuning/runtime-calibration-r14-20261005-c2]
     paths:
       - participant_r14/**
       - tools/native_r14_cohort.py
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 35
     env:
-      R14_COHORT: ${{ endsWith(github.ref_name, '-c1') && '1' || '2' }}
+      R14_COHORT: ${{ endsWith(github.ref_name, '-c2') && '2' || '1' }}
       PYTHONDONTWRITEBYTECODE: "1"
       OPENBLAS_NUM_THREADS: "1"
       OMP_NUM_THREADS: "1"

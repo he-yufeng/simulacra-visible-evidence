@@ -25,10 +25,16 @@
     "participant_r14/boost_core.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
     "participant_r14/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
     "participant_r14/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
-    "tests/test_participant_r14.py": "b8c00c7aab579b0c787acf1035317119ace720436f45a4c5c4881ee091141df1",
+    "tests/test_participant_r14.py": "c1dfc37025b23485096d7fab17d351868c1d99bb2267f19590cc580dd3fbce19",
     "tools/native_r14_cohort.py": "c9534e0b9efb2ee0a4f5c9001be7ea39174febf9a720b3dc28db82f3c1a264c6",
     "R14_CALIBRATION_RUNTIME_PROTOCOL.md": "9ca3c4e3d3645f8ac8776fbb37e466dc32a4a4f5e0518a1c5e83a07fd882f5f8",
     "r14-benchmark-requirements.txt": "fe2533a493c5c9b2389f983a5a1417af2fdf4392467e9473d3e9d1b83bb22e3a",
-    ".github/workflows/cohort-r14.yml": "392ada709dfd5338c51b1e5e196d00667bbb825bedca6eb075908d7c5bbab488"
+    ".github/workflows/cohort-r14.yml": "89fd3cee2751d250fa1c4373e22e760596fb4b3804933689c9b05ca7322018ab"
+  },
+  "initial_preflight_failure_preserved": {
+    "run_id": 37267214285,
+    "source_commit": "40b9ac2d98017e5d9f868ea9b6c49ad986963a5e",
+    "survey_data_generated_or_scored": false,
+    "only_fixture_dtype_and_trigger_branch_repaired": true
   }
 }
