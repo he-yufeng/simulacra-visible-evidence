@@ -1,0 +1,155 @@
+{
+  "actual_96_round_fits": 12,
+  "compact_total_rows": 901,
+  "eligible_plus_one_query_selection": {
+    "p0": 0.5,
+    "p1": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5
+  },
+  "eligible_plus_one_query_selection_seconds": 0.49819519799999057,
+  "fits": [
+    {
+      "fit_seconds": 0.13390161899999953,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "original",
+      "predict_seconds": 0.0023780399999964175,
+      "prediction_rows": 2970,
+      "training_input_sha256": "b2d71025e954ace648daad0445020f1cf824d2c95a81d1b572bcbff2d92661a5",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.09268884099998331,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "original",
+      "predict_seconds": 0.001854527000006101,
+      "prediction_rows": 2970,
+      "training_input_sha256": "c765d1efd6c2f09a3fc9d179f9237eba09e6e72fe17bb4c8524e7e0cd28be53d",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.06588905699999259,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "original",
+      "predict_seconds": 0.00233541700001183,
+      "prediction_rows": 2970,
+      "training_input_sha256": "b3099143921e114541356931620c8a289b3473594c6064c852f09a643632c13c",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.07873030999999742,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "original",
+      "predict_seconds": 0.0022662850000187973,
+      "prediction_rows": 2970,
+      "training_input_sha256": "3a737973a58d1c0a71cc328eac60907a104114f3c11d27b5b6daf0ddeca7fe8a",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.06887768800001481,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "original",
+      "predict_seconds": 0.0023433279999949264,
+      "prediction_rows": 2970,
+      "training_input_sha256": "69c025c74a3a6a3213ba173cee4ed5ab19e384cfb3408eb09402b93e400390d6",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.08066693800000735,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "original",
+      "predict_seconds": 0.0023151070000153595,
+      "prediction_rows": 2970,
+      "training_input_sha256": "54f8ec149f55115e9c9f8416a5e04a111d453bddf534bb163872ae012ae61235",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.06979110599999672,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "eligible_plus_one_query",
+      "predict_seconds": 0.0006373110000197357,
+      "prediction_rows": 271,
+      "training_input_sha256": "b2d71025e954ace648daad0445020f1cf824d2c95a81d1b572bcbff2d92661a5",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.08093263999998612,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "eligible_plus_one_query",
+      "predict_seconds": 0.0006652819999999338,
+      "prediction_rows": 271,
+      "training_input_sha256": "c765d1efd6c2f09a3fc9d179f9237eba09e6e72fe17bb4c8524e7e0cd28be53d",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.06515199900002244,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "eligible_plus_one_query",
+      "predict_seconds": 0.000646063000004915,
+      "prediction_rows": 271,
+      "training_input_sha256": "b3099143921e114541356931620c8a289b3473594c6064c852f09a643632c13c",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.0790034970000022,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "eligible_plus_one_query",
+      "predict_seconds": 0.0006381519999933971,
+      "prediction_rows": 271,
+      "training_input_sha256": "3a737973a58d1c0a71cc328eac60907a104114f3c11d27b5b6daf0ddeca7fe8a",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.06992567899999358,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "eligible_plus_one_query",
+      "predict_seconds": 0.0005555699999888475,
+      "prediction_rows": 271,
+      "training_input_sha256": "69c025c74a3a6a3213ba173cee4ed5ab19e384cfb3408eb09402b93e400390d6",
+      "training_rows": 630
+    },
+    {
+      "fit_seconds": 0.08056632099999206,
+      "parameters_sha256": "52778142aa53d91ee82b04c8b451aa04599f935a6706e9b5ff39e7d7a4ebea35",
+      "phase": "eligible_plus_one_query",
+      "predict_seconds": 0.0006164190000106373,
+      "prediction_rows": 271,
+      "training_input_sha256": "54f8ec149f55115e9c9f8416a5e04a111d453bddf534bb163872ae012ae61235",
+      "training_rows": 630
+    }
+  ],
+  "full_baseline_refit_or_final_predictions_executed": false,
+  "fully_hidden_original_query_rows": 2700,
+  "inner_r13_failure_root_cause_confirmed": false,
+  "input_and_original_source_unchanged": true,
+  "invented_seed": 202610501,
+  "limits": "One small invented six-target fixture. Equal selection and training digests are mechanism evidence only, not universal probability equivalence, repeated timing statistics, full-questionnaire quality,600/900s feasibility or original630s failure diagnosis. Query-row removal changes calibration workload only; original full-data baseline refit and all final queries would still be required in a future implementation.",
+  "network_calls": 0,
+  "new_paid_service_or_commitment_cny": 0,
+  "new_participant_revision_published_or_formally_uploaded": false,
+  "official_survey_seed_data_grader_or_terminal_cohort_reexecuted": false,
+  "original_selection": {
+    "p0": 0.5,
+    "p1": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5
+  },
+  "original_selection_seconds": 0.8507664340000076,
+  "per_target_training_values_labels_and_parameters_identical": true,
+  "quality_shared900_or_actual_full_entry_contract_verified": false,
+  "recorded_at_utc": "2026-10-05T04:48:43.487995+00:00",
+  "retained_hidden_query_rows_for_needed_guard": 1,
+  "scope": "ONE_OWNED_FIXTURE_ORIGINAL_VS_ELIGIBLE_PLUS_ONE_QUERY_DIAGNOSIS_NOT_FULL_SURVEY",
+  "selections_identical": true,
+  "source_hashes": {
+    "participant_r13/boost_core.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r13/main.py": "1e9d461273c0043bb2810ef20fe5354757a653c3912c25f98a747678e0108d83"
+  },
+  "status": "PASS",
+  "targets": 6,
+  "total_rows": 3600,
+  "visible_rows": 900,
+  "wall_seconds": 1.3749689459999956
+}
