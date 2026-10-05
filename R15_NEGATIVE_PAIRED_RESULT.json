@@ -1,0 +1,37 @@
+{
+  "scope": "OWNED_FULL_SYNTHETIC_PAIRED_QUALITY_MATERIAL_REGRESSION_NOT_OFFICIAL_SCORE",
+  "source_commit": "cd35b4338e5df0b8e680268b81b4d986b2736c73",
+  "run_id": 37275351473,
+  "job_id": 111651040583,
+  "cohort": 1,
+  "seed": 202610161,
+  "method_status": "STOP_FUTILITY",
+  "reason": "MATERIAL_REGRESSION",
+  "raw_skill": {
+    "r11": 0.5306550899149436,
+    "r15": 0.46306145402268994,
+    "delta": -0.06759363589225365
+  },
+  "cells_per_variant": 132273,
+  "completed_score_cells": 2,
+  "completed_pairs": 1,
+  "material_regression_pairs": 1,
+  "useful_pairs": 0,
+  "unstarted_pairs": 5,
+  "second_cohort_launched": false,
+  "native_controls_passed": 12,
+  "actual_candidate_archive_bytes": 9816,
+  "actual_candidate_archive_sha256": "7a6cb27365a7b1095ecb188f89781ec65b8826566379b845e8121467396ae359",
+  "cohort_wall_seconds": 562.241376433,
+  "parent_seconds": {
+    "r11": 457.45422167899994,
+    "r15": 101.11266816499995
+  },
+  "faster_is_quality_or_promotion_proof": false,
+  "source_grid_hyperparameters_data_or_thresholds_changed": false,
+  "native_receipt_sha256": "286ba5f12ca72cbd30aa4e73f5a70e6a0e75afd4b0c5c4a386a3273af3d6f3fc",
+  "independent_aggregate_readback_sha256": "4308a41612b7535a24750b604a024912c5c88f56ab1c32f44227039f4ac0d1bd",
+  "raw_job_recovery_sha256": "8c6ff2e1e29481bbc59f50f527d1f454b78616f24ebb518262e326b8511170d2",
+  "predictor_or_grader_rerun_for_recovery": false,
+  "limits": "One complete public synthetic UNHCR pair, not remaining instruments/seeds or private-real-data quality. Source/archive/schema/count/byitem arithmetic reconciliation is not a second full scorer. Original vectors, score-file bytes and Parquet not retrieved; no H100, significance, causal bottleneck proof, official score or award."
+}
