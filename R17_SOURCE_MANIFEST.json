@@ -1,0 +1,29 @@
+{
+  "schema": "r17-schema-numeric-order-plus-all-original-categorical-channels/v1",
+  "reference": "r11",
+  "candidate": "r17",
+  "benchmark_seeds": [
+    202610181,
+    202610182
+  ],
+  "model_seed": 20261012,
+  "catboost_parameters_unchanged": true,
+  "all_original_given_categorical_channels_retained": true,
+  "full_visible_training_rows_preserved": true,
+  "full_original_queries_preserved": true,
+  "schema_only_numeric_order": true,
+  "question_name_selection": false,
+  "inputs": {
+    "participant_r11/main.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r11/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r11/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "participant_r17/main.py": "260a2725fb2e13873b9a1d9ea9983667bc85c4c3be091cf7ff60cb12115571f7",
+    "participant_r17/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r17/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "tests/test_participant_r17.py": "f81cd545ec87f17ab451dea5f0e6984eb220bd943dc86746181f4fffcb207a7d",
+    "tools/native_r17_cohort.py": "d173fb31b49693938ca9593726fc78961b4bd191b19b2e3689453ebbf2bc1f2d",
+    "R17_SCHEMA_ORDER_PROTOCOL.md": "25da255312574f6bd1736a7e6fd38817919aa4124a8b3f77a5fe4fb55363edb1",
+    "r17-benchmark-requirements.txt": "fe2533a493c5c9b2389f983a5a1417af2fdf4392467e9473d3e9d1b83bb22e3a",
+    ".github/workflows/cohort-r17.yml": "8a7c4bc5a18501981239b68fb86d760a62f25c987ca193de8ed58e458f5d426b"
+  }
+}
