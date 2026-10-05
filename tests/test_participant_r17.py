@@ -162,8 +162,18 @@ class SchemaOrderTests(unittest.TestCase):
         frame, schema = self.fixture()
         frame.loc[[0, 5, 240, 245], "a"] = np.nan
         vectors = agent.predict(frame, schema)
-        # Two missing GIVEN answers add canonical marginal vectors before p.
-        target_vectors = [vectors[i] for i in (1, 2, 3, 4, 5, 7)]
+        # Missing GIVEN answers in TRAIN rows also occupy canonical output slots.
+        # Four missing a answers plus six missing p answers yield ten vectors.
+        slots = [(row, name) for row in range(len(frame))
+                 for name, item in schema["items"].items()
+                 if item["class"] in ("GIVEN", "PREDICT")
+                 and pd.isna(frame[name].iloc[row])]
+        self.assertEqual(slots, [(0, "a"), (5, "a"), (240, "a"), (240, "p"),
+                                (241, "p"), (242, "p"), (243, "p"), (244, "p"),
+                                (245, "a"), (245, "p")])
+        self.assertEqual(len(vectors), len(slots))
+        target_vectors = [vector for vector, (_, name) in zip(vectors, slots) if name == "p"]
+        self.assertEqual(len(target_vectors), 6)
         for vector, truth in zip(target_vectors[1:5], [0, 0, 1, 1]):
             self.assertGreater(vector[truth], .7)
         for vector in vectors:
