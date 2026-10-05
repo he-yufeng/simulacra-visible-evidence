@@ -1,0 +1,84 @@
+{
+  "scope": "NATIVE_EXACT_ZIP_FRESH_PUBLIC_SYNTHETIC_COHORT_NOT_OFFICIAL_SCORE",
+  "status": "STOP_FUTILITY",
+  "source_commit": "b3be899f8b924246bb2bbf77e66a7de56771114c",
+  "run_id": "37257965461",
+  "seed": 202610131,
+  "pairs": [
+    {
+      "delta_skill": 0.00045289414866878097,
+      "instrument": "unhcr",
+      "seed": 202610131
+    },
+    {
+      "delta_skill": -0.0006477418478691988,
+      "instrument": "unicef",
+      "seed": 202610131
+    },
+    {
+      "delta_skill": -0.0015851003479064874,
+      "instrument": "world_bank",
+      "seed": 202610131
+    }
+  ],
+  "cells": [
+    {
+      "seed": 202610131,
+      "instrument": "unhcr",
+      "variant": "r11",
+      "skill": 0.5152066588045106,
+      "n_cells": 132273
+    },
+    {
+      "seed": 202610131,
+      "instrument": "unhcr",
+      "variant": "r12",
+      "skill": 0.5156595529531793,
+      "n_cells": 132273
+    },
+    {
+      "seed": 202610131,
+      "instrument": "unicef",
+      "variant": "r11",
+      "skill": 0.5538176068776381,
+      "n_cells": 17856
+    },
+    {
+      "seed": 202610131,
+      "instrument": "unicef",
+      "variant": "r12",
+      "skill": 0.553169865029769,
+      "n_cells": 17856
+    },
+    {
+      "seed": 202610131,
+      "instrument": "world_bank",
+      "variant": "r11",
+      "skill": 0.4484771940433848,
+      "n_cells": 39520
+    },
+    {
+      "seed": 202610131,
+      "instrument": "world_bank",
+      "variant": "r12",
+      "skill": 0.44689209369547833,
+      "n_cells": 39520
+    }
+  ],
+  "parent_seconds": {
+    "r11": 400.776847317,
+    "r12": 724.821180093
+  },
+  "wall_seconds": 1128.180644033,
+  "useful_pairs": 0,
+  "material_regression_pairs": 0,
+  "unstarted_pairs": 3,
+  "stop_reason": "MAX_REMAINING_WINS_BELOW_REQUIRED_FOUR",
+  "feasibility_gate": false,
+  "official_score": null,
+  "private_microdata_used": false,
+  "gpu_h100_equivalence": false,
+  "note": "Invented public stand-ins only; archived negative capacity signal, not official gain, real-data quality or statistical significance.",
+  "method_receipt_sha256": "8d8705bfe9709ab8bff04fac98e723983ddf7ce71aac14a2baed8855dbbba804",
+  "independent_aggregate_readback_sha256": "28623250e00b5bda044fd5ebba9364fe45329905905b326494ea209c1ffa9aef"
+}
