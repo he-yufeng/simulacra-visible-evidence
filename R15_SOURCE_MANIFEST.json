@@ -1,0 +1,34 @@
+{
+  "schema": "r15-frozen-one-shared-masked-categorical-network/v1",
+  "reference": "r11",
+  "candidate": "r15",
+  "benchmark_seeds": [
+    202610161,
+    202610162
+  ],
+  "model_seed": 20261016,
+  "hidden_width": 64,
+  "full_batch_steps": 192,
+  "learning_rate": 0.02,
+  "l2": 0.001,
+  "per_head_min_known_labels": 90,
+  "prior_pseudocount": 0.5,
+  "prior_mixture": 0.05,
+  "gradient_norm_clip": 5,
+  "max_estimated_dense_workspace_bytes": 805306368,
+  "original_full_queries_preserved": true,
+  "given_only_predictive_features": true,
+  "inputs": {
+    "participant_r11/main.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r11/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r11/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "participant_r15/main.py": "31f25698aee083a8b498a7503a66823f4e89da32706a690690b2a9a7c511a241",
+    "participant_r15/requirements.txt": "08e4fe287267c35daffe687dbca1cfb3c3d701183b609df0d7f2b3cc9bfb9f14",
+    "participant_r15/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "tests/test_participant_r15.py": "444410aa3791a47e24943c38fc5e58a82d7bb72930d610852ecb5030218dcd34",
+    "tools/native_r15_cohort.py": "787e4f0ccbfa4fb2c0dc3dcc37548aaee5af42d829eeb299a756ad98eadd8839",
+    "R15_SHARED_NETWORK_PROTOCOL.md": "0620a984e9a0ca56ed3841a5a350e087c02cc39ada58360406c5f6924af57796",
+    "r15-benchmark-requirements.txt": "fe2533a493c5c9b2389f983a5a1417af2fdf4392467e9473d3e9d1b83bb22e3a",
+    ".github/workflows/cohort-r15.yml": "d95ce1962d264dc0f138cb37d994f4da537476d29f450bc97598b06f7ce9d6b9"
+  }
+}
