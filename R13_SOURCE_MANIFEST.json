@@ -1,0 +1,32 @@
+{
+  "schema": "r13-frozen-block-heldout-calibration/v1",
+  "reference": "r11",
+  "candidate": "r13",
+  "benchmark_seeds": [
+    202610141,
+    202610142
+  ],
+  "temperatures": [
+    0.5,
+    0.75,
+    1,
+    1.25,
+    1.5,
+    2
+  ],
+  "baseline_core_sha256": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+  "inputs": {
+    "participant_r11/main.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r11/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r11/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "participant_r13/main.py": "1e9d461273c0043bb2810ef20fe5354757a653c3912c25f98a747678e0108d83",
+    "participant_r13/boost_core.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r13/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r13/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "tests/test_participant_r13.py": "d012e865842f76b551917dce78261cd6ed6f09a3bdf413f491b7d3c22c05cc9a",
+    "tools/native_r13_cohort.py": "de55123821bc08ce341e672dba8c64988936013a9e1b011f7fabaa67475d3c2c",
+    "R13_CALIBRATION_PROTOCOL.md": "09ebf75b014cc4cb96738b821cac2a783c43a6276608586b3db16508b24d041e",
+    "r13-benchmark-requirements.txt": "fe2533a493c5c9b2389f983a5a1417af2fdf4392467e9473d3e9d1b83bb22e3a",
+    ".github/workflows/cohort-r13.yml": "e3384d6d965a82545eb5fde99c05480b53709a6999a1bd9410a7af21391863a1"
+  }
+}
