@@ -1,0 +1,40 @@
+{
+  "scope": "OWNED_PUBLIC_SYNTHETIC_EXECUTION_FAILURE_NOT_QUALITY_REJECTION",
+  "source_commit": "8239f7390fd4fe208a00d64691e89d56bde74dfc",
+  "run_id": 37262468520,
+  "job_id": 111612388518,
+  "status": "FAIL",
+  "finished_at_utc": "2026-10-05T04:30:34.700661+00:00",
+  "cohort": 1,
+  "seed": 202610141,
+  "wall_seconds": 1074.508566583,
+  "native_controls_passed": 8,
+  "native_zip_bytes": 10462,
+  "native_zip_sha256": "0e9dad5e5c40ddabba65f4f2d84abbb0f5b82451d6f112210ee87536fc778130",
+  "baseline": {
+    "instrument": "unhcr",
+    "skill": 0.5654065221106873,
+    "n_cells": 132273,
+    "parent_seconds": 440.258374439
+  },
+  "candidate_failure": {
+    "instrument": "unhcr",
+    "exit_code": 1,
+    "parent_step_seconds": 630.0830033029999,
+    "parent_wrapper_timed_out": false,
+    "stdout_sha256": "7de0a8b1cf4429be4d698726d14e229b1680b39ff56b392dcb93919a0a7cc79a",
+    "inner_error_text_recovered": false
+  },
+  "candidate_score_cells": 0,
+  "complete_pairs": 0,
+  "first_pair_attempted": true,
+  "further_pair_attempts_not_started": 5,
+  "second_cohort_launched": false,
+  "method_quality_gate_passed": false,
+  "root_cause_confirmed": false,
+  "native_receipt_sha256": "806bc98bc3f1fa4457192e2cd62ec4444313dfe92ec1d01eb5a65db8d51c3719",
+  "independent_aggregate_readback_sha256": "737771ae9016127167c4ab65493bd38e2be4e7840179797d9a4a5c768ea96a72",
+  "raw_log_recovery_sha256": "458f02177c7bb8e6cef5023ca684dcd019538a22db874516d2cb385921b87bf4",
+  "predictors_or_graders_reexecuted_for_recovery": false,
+  "limits": "One full baseline grade plus an unscored candidate execution failure. No paired delta, private microdata, original vectors, second scorer, real-data quality, H100 equivalence, official score or award proof.600s candidate cap may explain the630s failed parent step but inner diagnostics were not transmitted."
+}
