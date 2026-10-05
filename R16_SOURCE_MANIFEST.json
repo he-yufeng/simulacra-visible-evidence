@@ -1,0 +1,32 @@
+{
+  "schema": "r16-frozen-full-categorical-linear-carrier-and-shared-residual/v1",
+  "reference": "r11",
+  "candidate": "r16",
+  "benchmark_seeds": [
+    202610171,
+    202610172
+  ],
+  "model_seed": 20261016,
+  "hidden_width": 64,
+  "steps": 192,
+  "learning_rate": 0.02,
+  "ridge": 0.001,
+  "prior_mixture": 0.05,
+  "direct_linear_carrier_zero_initialized": true,
+  "joint_fit_count": 1,
+  "given_only_features": true,
+  "full_original_queries_preserved": true,
+  "inputs": {
+    "participant_r11/main.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r11/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r11/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "participant_r16/main.py": "bd31841e03a46fdece582bb0f24751bab9202fa5b9f087e218af68211644c69e",
+    "participant_r16/requirements.txt": "08e4fe287267c35daffe687dbca1cfb3c3d701183b609df0d7f2b3cc9bfb9f14",
+    "participant_r16/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "tests/test_participant_r16.py": "27200df7db59e982801533d0faf326a50c4f5d2f1114732e48e4e42ef58de588",
+    "tools/native_r16_cohort.py": "aff035897b1205572f2f8a08e21ad05847aa68847f5a1e7e488d8bcc023afe6c",
+    "R16_LINEAR_RESIDUAL_PROTOCOL.md": "1a2e0f17fde87f0565b6f52782bc944ef04c4069dbfb87a2b96765c1d2b6af74",
+    "r16-benchmark-requirements.txt": "fe2533a493c5c9b2389f983a5a1417af2fdf4392467e9473d3e9d1b83bb22e3a",
+    ".github/workflows/cohort-r16.yml": "3d0d3b1cca876a22b5a80c5001b18777f443f73e45162d719491e42aea209fd6"
+  }
+}
