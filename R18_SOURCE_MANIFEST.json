@@ -1,0 +1,36 @@
+{
+  "schema": "r18-train-given-only-density-posterior-plus-full-r11-categoricals/v1",
+  "reference": "r11",
+  "candidate": "r18",
+  "benchmark_seeds": [
+    202610191,
+    202610192
+  ],
+  "model_seed": 20261012,
+  "density_initialization_seed": 20261008,
+  "catboost_parameters_unchanged": true,
+  "density_mathematics_and_constants_unchanged": true,
+  "all_original_given_categorical_channels_retained": true,
+  "full_visible_training_rows_preserved": true,
+  "full_original_queries_preserved": true,
+  "density_fitting_given_only": true,
+  "predict_labels_or_option_widths_enter_density": false,
+  "hidden_query_rows_enter_density_fit": false,
+  "question_name_selection": false,
+  "prior_owned_core_sha256": "04680d52dacf336d2f7c1d90925ff754ab9176425a1389d727f3c61c5f2350c7",
+  "inputs": {
+    "participant_r11/main.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r11/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r11/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "participant_r09/latent_core.py": "04680d52dacf336d2f7c1d90925ff754ab9176425a1389d727f3c61c5f2350c7",
+    "participant_r18/main.py": "ff8697e3b87aab023b894ae513bb3279a9b818327e53e39a87c987df046a01dd",
+    "participant_r18/latent_given_core.py": "aa32721925b6d450b767eefc0c6be5bf68966442f428f20a67cf228cb69f5cd5",
+    "participant_r18/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r18/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "tests/test_participant_r18.py": "75bd04c82801314bc358f2aaa643330640665cb7a1549684be44d7b4b39eea8f",
+    "tools/native_r18_cohort.py": "8500330a7b4897b145bd4a1da5ab669afe3249ef35619a2e31e53ea697c56af5",
+    "R18_GIVEN_DENSITY_PROTOCOL.md": "834f8f26496d9e2bdddace01f23bb4482fe06e996bb6888efb6e95f72d6dd9de",
+    "r18-benchmark-requirements.txt": "fe2533a493c5c9b2389f983a5a1417af2fdf4392467e9473d3e9d1b83bb22e3a",
+    ".github/workflows/cohort-r18.yml": "e11a676c373d64115d0fa991bf8074b4e9b82c55551a127a5ed7eaf9b2d8b8eb"
+  }
+}
