@@ -1,0 +1,41 @@
+{
+  "scope": "FROZEN_R14_FULL_SYNTHETIC_ATTEMPT_CONFIRMED_PREDICT_TIMEOUT_NOT_QUALITY_REJECTION",
+  "source_commit": "74ab65cce5db15e702d7b72266b6a141eb74fa8e",
+  "run_id": 37267972313,
+  "job_id": 111628708035,
+  "cohort": 1,
+  "seed": 202610151,
+  "status": "FAIL",
+  "finished_at_utc": "2026-10-05T05:47:23.870802+00:00",
+  "wall_seconds": 1079.1590730940002,
+  "actual_new_native_controls_passed": 12,
+  "actual_candidate_archive_bytes": 11240,
+  "actual_candidate_archive_sha256": "f162837ef45594cce7cc41952f8a77ea09117a33d6e099a0d0c2f68e0589c193",
+  "baseline": {
+    "instrument": "unhcr",
+    "skill": 0.5138149145534552,
+    "n_cells": 132273,
+    "parent_seconds": 443.28107247599996
+  },
+  "candidate": {
+    "instrument": "unhcr",
+    "exit_code": 1,
+    "parent_seconds": 631.069694449,
+    "outer_wrapper_timed_out": false,
+    "diagnostic": "predict() did not finish within 600s",
+    "inner_predict_timeout_confirmed": true
+  },
+  "candidate_scores": 0,
+  "complete_pairs": 0,
+  "first_pair_attempted": true,
+  "further_pairs_unstarted": 5,
+  "second_cohort_launched": false,
+  "quality_gate_passed": false,
+  "original_r13_inner_failure_root_cause_now_proven": false,
+  "receipt_sha256": "ced06438081c42d5cac5a153162e4d4696476f587019ce91a8e54533c33b9c84",
+  "recovery_sha256": "f64734db999c716f0e5076ba92d8163865736942c5b2943901ec958740d4e61d",
+  "independent_source_archive_schema_count_byitem_readback_sha256": "a5330927a3ae7b856b48b6efdbd688f4e3f3f40e0d8c8bd40b9d7d219cebb647",
+  "original_preflight_fixture_failure_preserved": true,
+  "predictors_graders_or_old_cohorts_rerun_for_recovery": false,
+  "limitations": "Actual controls/archive and one full baseline grade plus a candidate timeout; no paired quality delta, original vectors/Parquet/score-file byte retrieval, second scorer, H100 or real-data proof, official submission or award. Do not tune/retry this fixed budget configuration."
+}
