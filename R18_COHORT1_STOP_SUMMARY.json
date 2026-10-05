@@ -1,0 +1,127 @@
+{
+  "scope": "NATIVE_R18_PARTIAL_C1_RESOURCE_STOP_NOT_FULL_QUALITY_PASS_OR_OFFICIAL_SCORE",
+  "status": "FAIL",
+  "error": "owned step failed; bounded child output retained",
+  "error_class": "RuntimeError",
+  "source_commit": "c7730cf06106841cfd638c3c69578cc7592da4de",
+  "seed": 202610191,
+  "cohort": 1,
+  "official_commit": "0d2332d8ae19a8ce171031142bdc97134910e7ec",
+  "new_linux_given_density_controls_without_skips": 12,
+  "archives": [
+    {
+      "actual_extracted_payloads_verified": true,
+      "bytes": 6273,
+      "sha256": "a53dbe25f96a6ec5e14ab815c8a0bd7f4ff5a1f21174f5646595d47c94326927",
+      "variant": "r11"
+    },
+    {
+      "actual_extracted_payloads_verified": true,
+      "bytes": 11277,
+      "sha256": "b1e67bd122bd331c4b1b5a92027866cd6c6e57b808feb819bfbc9ec8a8f92437",
+      "variant": "r18"
+    }
+  ],
+  "cells": [
+    {
+      "variant": "r11",
+      "instrument": "unhcr",
+      "skill": 0.46452858045030865,
+      "n_cells": 132273,
+      "n_held_out": 621,
+      "n_respondents": 8900
+    },
+    {
+      "variant": "r18",
+      "instrument": "unhcr",
+      "skill": 0.4678475494179579,
+      "n_cells": 132273,
+      "n_held_out": 621,
+      "n_respondents": 8900
+    },
+    {
+      "variant": "r11",
+      "instrument": "unicef",
+      "skill": 0.6107660583530286,
+      "n_cells": 17856,
+      "n_held_out": 1488,
+      "n_respondents": 16373
+    },
+    {
+      "variant": "r18",
+      "instrument": "unicef",
+      "skill": 0.6106428790721152,
+      "n_cells": 17856,
+      "n_held_out": 1488,
+      "n_respondents": 16373
+    },
+    {
+      "variant": "r11",
+      "instrument": "world_bank",
+      "skill": 0.4718972912153021,
+      "n_cells": 39520,
+      "n_held_out": 520,
+      "n_respondents": 5715
+    }
+  ],
+  "pairs": [
+    {
+      "delta_skill": 0.0033189689676492717,
+      "instrument": "unhcr",
+      "seed": 202610191
+    },
+    {
+      "delta_skill": -0.00012317928091332142,
+      "instrument": "unicef",
+      "seed": 202610191
+    }
+  ],
+  "useful_pairs": 0,
+  "material_regression_pairs": 0,
+  "unstarted_pairs": 4,
+  "feasibility_gate": false,
+  "parent_seconds": {
+    "r11": 377.606021014,
+    "r18": 587.6027630860001
+  },
+  "all_attempt_parent_seconds": {
+    "r11": 377.606021014,
+    "r18": 754.6720716980001
+  },
+  "wall_seconds": 1135.68042592,
+  "finished_at_utc": "2026-10-05T23:46:08.487234+00:00",
+  "frozen_inputs_unchanged": true,
+  "native_run_id": 37388525996,
+  "native_job_id": 112027772164,
+  "native_run_conclusion": "failure",
+  "candidate_source_sha256": "ff8697e3b87aab023b894ae513bb3279a9b818327e53e39a87c987df046a01dd",
+  "core_source_sha256": "aa32721925b6d450b767eefc0c6be5bf68966442f428f20a67cf228cb69f5cd5",
+  "raw_public_log_bytes": 90382,
+  "raw_public_log_sha256": "f022d8d8947e4806c70f4286a6f429ccb789d5e41794b5f1a926ae9925945c40",
+  "native_receipt_sha256": "78455a4e6935a4ecdf808a306658e9af0c76dd50071f0abc4cf81dae91eb0457",
+  "recovery_receipt_sha256": "67b9cb2f3b860937f9f84837565a11f7e5e190bae3d778345693c4a090d9a268",
+  "independent_readback_sha256": "16eaccfd3a54083fb7bca4ed713fa127eb45c2a5519e4b5f104048b49b55b77c",
+  "native_source_zip_schema_counts_and_byitem_aggregate_arithmetic_verified_once": true,
+  "first_cohort_complete": false,
+  "completed_questionnaire_pairs": 2,
+  "failed_pair": "world_bank",
+  "candidate_world_bank_skill": null,
+  "failed_candidate_predict_timeout_seconds": 150,
+  "outer_parent_communication_timed_out": false,
+  "failed_candidate_step_wall_seconds": 167.069308612,
+  "quality_gate_mathematically_unreachable_from_partial_results": false,
+  "full_macro_candidate_score_or_delta": null,
+  "uncompleted_pairs_including_failed_one": 4,
+  "second_cohort_pairs_never_launched": 3,
+  "runtime_unstarted_pairs_label_means_uncompleted_here": true,
+  "decision": "CLOSE_R18_RESOURCE_FAILURE: original WorldBank150s predict cap failed; completed two pairs have0useful>=0.005. Do not extend caps, tune frozenmodel/core parameters, skipWorldBank or infer its score aszero.",
+  "second_cohort_launched": false,
+  "phase2_launched": false,
+  "official_r18_uploaded": false,
+  "official_r18_score": null,
+  "award": null,
+  "workflow_id": 375894333,
+  "workflow_state_verified": "disabled_manually",
+  "new_paid_service_or_commitment_cny": 0,
+  "limitations": "Invented public synthetic data only. Five successful score aggregates and two complete pairs were reconciled; the candidate WorldBank score is absent, not zero. No complete macro result, significance, real-data or H100 equivalence. Raw vectors/Parquet/score-file bytes stayed in the runner; no second scorer or predictor rerun."
+}
