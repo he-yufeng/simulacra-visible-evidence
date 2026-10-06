@@ -1,0 +1,31 @@
+{
+  "schema": "r19-schema-onehot-extratrees-v1",
+  "reference": "r11",
+  "candidate": "r19",
+  "benchmark_seeds": [
+    202610201,
+    202610202
+  ],
+  "model_seed": 20261020,
+  "all_given_categories_full_schema_onehot": true,
+  "predictor_targets_identifiers_query_statistics_as_features": false,
+  "old_variant_or_resource_lease_restarted": false,
+  "gate_useful_delta": 0.005,
+  "gate_required_pairs": 4,
+  "gate_total_pairs": 6,
+  "gate_material_regression": -0.015,
+  "inputs": {
+    "participant_r11/main.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r11/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r11/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "participant_r19/main.py": "a662cb15f870f6038ac9556b2efd4cc2839a63925763743f41abe6fbb9d94728",
+    "participant_r19/requirements.txt": "a06f6a954f658e2be288842d89fb8f65c159673b6bed9c108bd541abc86cf6dd",
+    "participant_r19/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "tests/test_participant_r19.py": "79598e72b686529e49c66325cff23cbd47ef24a816b0ed360cf62787ab340aba",
+    "tools/native_r19_cohort.py": "6d8beb799b144d1629de6bd6d327dae2976f1b3d5b3e1b43f6ef1aabf376601c",
+    "R19_EXTRATREES_PROTOCOL.md": "6879bcd918d16bddc0226217a9a78a02e608d84b90ab69b0dd9ea9121f084bf9",
+    "R19_RESOURCE_LEASE.json": "4fe57147a25fc4889615dd568e836703ceb6ac60b28ab83590ab06530ce30da5",
+    "r19-benchmark-requirements.txt": "9409ee96f45638fb79be00bfb1087c49c17fd52aca97477e5335629e038e096c",
+    ".github/workflows/cohort-r19.yml": "0390aacff08fda8fa2225bbf02a64adf47410f5edff107e2c66816a031aaee77"
+  }
+}
