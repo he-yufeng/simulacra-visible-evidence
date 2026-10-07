@@ -1,0 +1,107 @@
+{
+  "scope": "COMPLETE_FIRST_PUBLIC_SYNTHETIC_COHORT_STOP_NOT_OFFICIAL_OR_FULL_SIX_PAIR_RESULT",
+  "source_commit": "f0329c7ab34aed424ce1e9d4674b5adac64a59e4",
+  "run_id": "37549270989",
+  "job_id": 112560601942,
+  "status": "STOP_FUTILITY",
+  "seed": 202610201,
+  "cells": [
+    {
+      "variant": "r11",
+      "instrument": "unhcr",
+      "skill": 0.5722827385978853,
+      "n_cells": 132273,
+      "n_held_out": 621,
+      "n_respondents": 8900
+    },
+    {
+      "variant": "r19",
+      "instrument": "unhcr",
+      "skill": 0.5708591573812732,
+      "n_cells": 132273,
+      "n_held_out": 621,
+      "n_respondents": 8900
+    },
+    {
+      "variant": "r11",
+      "instrument": "unicef",
+      "skill": 0.4449859996786165,
+      "n_cells": 17856,
+      "n_held_out": 1488,
+      "n_respondents": 16373
+    },
+    {
+      "variant": "r19",
+      "instrument": "unicef",
+      "skill": 0.43823877553735757,
+      "n_cells": 17856,
+      "n_held_out": 1488,
+      "n_respondents": 16373
+    },
+    {
+      "variant": "r11",
+      "instrument": "world_bank",
+      "skill": 0.4518250119041922,
+      "n_cells": 39520,
+      "n_held_out": 520,
+      "n_respondents": 5715
+    },
+    {
+      "variant": "r19",
+      "instrument": "world_bank",
+      "skill": 0.44024971723173834,
+      "n_cells": 39520,
+      "n_held_out": 520,
+      "n_respondents": 5715
+    }
+  ],
+  "pairs": [
+    {
+      "delta_skill": -0.0014235812166120132,
+      "instrument": "unhcr",
+      "seed": 202610201
+    },
+    {
+      "delta_skill": -0.006747224141258834,
+      "instrument": "unicef",
+      "seed": 202610201
+    },
+    {
+      "delta_skill": -0.011575294672453773,
+      "instrument": "world_bank",
+      "seed": 202610201
+    }
+  ],
+  "useful_pairs": 0,
+  "material_regression_pairs": 0,
+  "remaining_pairs": 3,
+  "native_controls_without_skips": 10,
+  "controls_seconds": 2.7316543949999925,
+  "parent_seconds": {
+    "r11": 646.2357963520002,
+    "r19": 151.44856970599994
+  },
+  "cohort_seconds": 805.46170717,
+  "archives": [
+    {
+      "actual_extracted_payloads_verified": true,
+      "bytes": 6273,
+      "sha256": "a53dbe25f96a6ec5e14ab815c8a0bd7f4ff5a1f21174f5646595d47c94326927",
+      "variant": "r11"
+    },
+    {
+      "actual_extracted_payloads_verified": true,
+      "bytes": 6447,
+      "sha256": "1b27cd4b49ed6b5bf4021856b3263416699c75f66e7cb108ef78f524a6ec2d61",
+      "variant": "r19"
+    }
+  ],
+  "independently_verified_source_files": 12,
+  "full_six_pair_mean": null,
+  "official_score": null,
+  "official_upload": false,
+  "second_cohort_run": null,
+  "workflow_state": "disabled_manually",
+  "new_service_spend_or_commit_cny": 0,
+  "limitations": "Actual CI aggregates and frozen source/ZIP/schema/count arithmetic only. Raw score-file bytes, original prediction vectors and staged Parquet stayed in the ephemeral runner; no second scorer/H100/real-data/significance/official gain proof. Input-hash stability is the runtime receipt assertion."
+}
