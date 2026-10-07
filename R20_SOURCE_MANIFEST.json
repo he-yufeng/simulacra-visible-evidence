@@ -1,0 +1,31 @@
+{
+  "schema": "r20-smoothed-available-case-joint-dependence-tree/v1",
+  "reference": "r11",
+  "candidate": "r20",
+  "seeds": [
+    202610211,
+    202610212
+  ],
+  "root_schema_index": 0,
+  "prior": 0.5,
+  "min_joint": 90,
+  "inference_batch_rows": 128,
+  "all_schema_given_predict_nodes": true,
+  "whole_hidden_query_fitting": false,
+  "causality_or_high_order_guarantee": false,
+  "inputs": {
+    "participant_r11/main.py": "32f16501feeb7b6890262165d3f510b14b818208e0ee73aca716d847ead6cdf8",
+    "participant_r11/requirements.txt": "3aa6e18f16796cc0932afb52899230bb10f6d497c62267406c0f455a63d963a5",
+    "participant_r11/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "participant_r20/main.py": "513f26f11edbcd7b0b95d3cafcc647b81dba187913856c9b6bbb59fc246a1bce",
+    "participant_r20/tree_core.py": "567b25fe4eeced89b3fb69ceaf1783f77911091a0f4a75d955dcac731debbc59",
+    "participant_r20/requirements.txt": "46315b585f31eb194d9d5e045e5bb977151a84295b6a822914a216568878716c",
+    "participant_r20/LICENSE": "213adfff89ff76b25f26c6204948ed6c15705521c5a7c999902059427294d27b",
+    "tests/test_participant_r20.py": "48f220a360aadaebc9620538d2153b846ce9fa74dbf053848cf7648b45597279",
+    "tools/native_r20_cohort.py": "31955fbe0c32249f11b1e16e8b387e3fd17eb17e0a93bcbf44b9f2383843f438",
+    "R20_DEPENDENCE_TREE_PROTOCOL.md": "bbd73eca87550e4491fcc2b3f54c3401ee8fd3bfbd0cb72ad28c4a382adef4b7",
+    "R20_RESOURCE_LEASE.json": "394e5acfa17b1dd0d0c589f3e1d8a05675137061b819c4f20110dbb7fd5103ab",
+    "r20-benchmark-requirements.txt": "fe2533a493c5c9b2389f983a5a1417af2fdf4392467e9473d3e9d1b83bb22e3a",
+    ".github/workflows/cohort-r20.yml": "e100323b0702429577a68358e11b95a33d2fb9d9e676562ba251afc582c75527"
+  }
+}
