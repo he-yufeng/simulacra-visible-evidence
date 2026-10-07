@@ -1,0 +1,137 @@
+{
+  "scope": "ONE_COMPLETE_PUBLIC_SYNTHETIC_UNHCR_PAIR_STOP_NOT_FULL_COHORT_OR_OFFICIAL",
+  "source_commit": "10b35de5aeb302b16f2a949245ee3db70b0ae982",
+  "run_id": "37553685337",
+  "job_id": 112574843156,
+  "status": "STOP_FUTILITY",
+  "reason": "MATERIAL_REGRESSION",
+  "seed": 202610211,
+  "cells": [
+    {
+      "variant": "r11",
+      "instrument": "unhcr",
+      "skill": 0.6216553030854224,
+      "n_cells": 132273,
+      "n_held_out": 621,
+      "n_respondents": 8900
+    },
+    {
+      "variant": "r20",
+      "instrument": "unhcr",
+      "skill": 0.5567501833006367,
+      "n_cells": 132273,
+      "n_held_out": 621,
+      "n_respondents": 8900
+    }
+  ],
+  "pairs": [
+    {
+      "delta_skill": -0.06490511978478575,
+      "instrument": "unhcr",
+      "seed": 202610211
+    }
+  ],
+  "native_controls": 12,
+  "control_seconds": 1.2324291709999997,
+  "wall_seconds": 422.872302134,
+  "parent_seconds": {
+    "r11": 392.096091159,
+    "r20": 27.321736526999985
+  },
+  "archives": [
+    {
+      "actual_extracted_payloads_verified": true,
+      "bytes": 6273,
+      "sha256": "a53dbe25f96a6ec5e14ab815c8a0bd7f4ff5a1f21174f5646595d47c94326927",
+      "variant": "r11"
+    },
+    {
+      "actual_extracted_payloads_verified": true,
+      "bytes": 9795,
+      "sha256": "313e9daa0e4613a66182e38f53f5f5eb6b864a62d2f8c2895be2fc26205f97b0",
+      "variant": "r20"
+    }
+  ],
+  "planned_cells": [
+    {
+      "instrument": "unhcr",
+      "seed": 202610211,
+      "state": "PASS",
+      "variant": "r11"
+    },
+    {
+      "instrument": "unhcr",
+      "seed": 202610211,
+      "state": "PASS",
+      "variant": "r20"
+    },
+    {
+      "instrument": "unicef",
+      "seed": 202610211,
+      "state": "NOT_STARTED",
+      "variant": "r11"
+    },
+    {
+      "instrument": "unicef",
+      "seed": 202610211,
+      "state": "NOT_STARTED",
+      "variant": "r20"
+    },
+    {
+      "instrument": "world_bank",
+      "seed": 202610211,
+      "state": "NOT_STARTED",
+      "variant": "r11"
+    },
+    {
+      "instrument": "world_bank",
+      "seed": 202610211,
+      "state": "NOT_STARTED",
+      "variant": "r20"
+    },
+    {
+      "instrument": "unhcr",
+      "seed": 202610212,
+      "state": "NOT_STARTED",
+      "variant": "r11"
+    },
+    {
+      "instrument": "unhcr",
+      "seed": 202610212,
+      "state": "NOT_STARTED",
+      "variant": "r20"
+    },
+    {
+      "instrument": "unicef",
+      "seed": 202610212,
+      "state": "NOT_STARTED",
+      "variant": "r11"
+    },
+    {
+      "instrument": "unicef",
+      "seed": 202610212,
+      "state": "NOT_STARTED",
+      "variant": "r20"
+    },
+    {
+      "instrument": "world_bank",
+      "seed": 202610212,
+      "state": "NOT_STARTED",
+      "variant": "r11"
+    },
+    {
+      "instrument": "world_bank",
+      "seed": 202610212,
+      "state": "NOT_STARTED",
+      "variant": "r20"
+    }
+  ],
+  "source_files_verified": 13,
+  "full_six_pair_mean": null,
+  "private_data_used": false,
+  "official_score": null,
+  "official_upload": false,
+  "workflow_state": "disabled_manually",
+  "limits": "Actual CI aggregates and frozen source/ZIP/schema/count arithmetic only. Raw score-file bytes, original prediction vectors and staged Parquet stayed in the ephemeral runner; no second scorer/H100/real-data/significance/official gain proof. Input-hash stability is the runtime receipt assertion.",
+  "new_spend_or_commit_cny": 0
+}
